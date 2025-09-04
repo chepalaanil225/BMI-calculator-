@@ -12,4 +12,7 @@ else:
     print("You are obese.") 
 
 print(f"Your BMI is {bmi:.2f}")
+#Prints a formatted message. This uses an f-string (f"...") so you can embed expressions inside {}.
+#{bmi:.2f} formats the bmi number to two decimal places.
+
 
